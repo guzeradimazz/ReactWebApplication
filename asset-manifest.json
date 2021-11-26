@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactWebApp/static/css/main.75ef2825.chunk.css",
+    "main.js": "/reactWebApp/static/js/main.2652259b.chunk.js",
+    "main.js.map": "/reactWebApp/static/js/main.2652259b.chunk.js.map",
+    "runtime-main.js": "/reactWebApp/static/js/runtime-main.6ed22282.js",
+    "runtime-main.js.map": "/reactWebApp/static/js/runtime-main.6ed22282.js.map",
+    "static/js/2.110a3408.chunk.js": "/reactWebApp/static/js/2.110a3408.chunk.js",
+    "static/js/2.110a3408.chunk.js.map": "/reactWebApp/static/js/2.110a3408.chunk.js.map",
+    "index.html": "/reactWebApp/index.html",
+    "static/css/main.75ef2825.chunk.css.map": "/reactWebApp/static/css/main.75ef2825.chunk.css.map",
+    "static/js/2.110a3408.chunk.js.LICENSE.txt": "/reactWebApp/static/js/2.110a3408.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactWebApp/static/media/left-pointing-magnifying-glass_1f50d.739734e9.svg",
+    "static/media/Input.css": "/reactWebApp/static/media/VectorBlack.9fa48620.svg",
+    "static/media/PostIdPage.css": "/reactWebApp/static/media/star.853786d1.svg",
+    "static/media/ModalWindow.module.css": "/reactWebApp/static/media/close-popup.f3d811a7.svg",
+    "static/media/CriticalError.css": "/reactWebApp/static/media/flyingPlate.c3130bd5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ed22282.js",
+    "static/js/2.110a3408.chunk.js",
+    "static/css/main.75ef2825.chunk.css",
+    "static/js/main.2652259b.chunk.js"
+  ]
+}
