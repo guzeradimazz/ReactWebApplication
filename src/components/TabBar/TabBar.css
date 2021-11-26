@@ -1,0 +1,23 @@
+
+.tab__list {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 28px;
+}
+
+.tab__list__item {
+    cursor: pointer;
+    list-style: none;
+    color: #97979B;
+    margin-right: 10px;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.active__list__item {
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: black !important;
+    border-bottom: 2px solid #6534FF;
+}

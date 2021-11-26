@@ -1,0 +1,55 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: cubic-bezier();
+    z-index: 10;
+}
+
+.activeModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myModalContent {
+    position: absolute;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    height: 192px;
+    border-radius: 16px;
+    background-color: #fff;
+    min-width: 250px;
+}
+
+.myModalContent h3 {
+    margin-bottom: 15px;
+}
+
+.close__popup {
+    background: #F7F7F8;
+    border-radius: 12px;
+    top: 12px;
+    right: 12px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url('../../../images/close-popup.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid #F7F7F8;
+    cursor: pointer;
+}

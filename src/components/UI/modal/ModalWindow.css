@@ -1,0 +1,11 @@
+
+.popup__wrap div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.popup__wrap div label {
+    margin-left: 8px;
+}

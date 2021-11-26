@@ -1,0 +1,45 @@
+.input {
+    background-color: #eeeeee;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border: none;
+    padding: 8px 0 8px 40px;
+    font-size: 14px;
+    color: #C3C3C6;
+    line-height: 16px;
+    height: 40px;
+    width: 100%;
+    background-image: url('../../../images/Vector.svg');
+    background-position: center left;
+    background-position-x: 8px;
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+}
+
+.input:focus {
+    color: black;
+    background-image: url('../../../images/VectorBlack.svg');
+}
+.margin__tag {
+    margin: 18px 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+#input__button {
+    background-color: #eeeeee;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    background-image: url('../../../images/Vector-button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 0px;
+    background-size: 50%;
+    width: 50px;
+    cursor: pointer;
+    border: solid #eeeeee;
+}

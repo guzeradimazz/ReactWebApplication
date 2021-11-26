@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+
+    font-family: 'Inter';
+    
+    src: url('../font/Inter-VariableFont_slnt\,wght.ttf');
+}
+html {
+    font-family: Inter;
+    overflow-x: hidden !important;
+}
+input {
+    outline: none;
+}
+#root {
+    width: 100vw;
+}
+
+.magnify {
+    width: 56px;
+    height: 56px;
+    background-image: url('../images/left-pointing-magnifying-glass_1f50d.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lds-dual-ring {
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #6534FF;
+    border-color: #6534FF transparent #6534FF transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

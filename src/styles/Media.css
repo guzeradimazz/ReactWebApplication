@@ -1,0 +1,11 @@
+@media screen and (max-width: 915px) {
+    .tab__list{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 414px) {
+    input{
+        font-size: 10px;
+    }
+}

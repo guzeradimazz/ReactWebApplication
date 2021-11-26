@@ -1,0 +1,40 @@
+input[type='radio'],
+label {
+  cursor: pointer;
+}
+
+input[type='radio'] {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input[type='radio']::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid #6534FF;
+}
+
+input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6534FF;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+}

@@ -1,0 +1,41 @@
+.people {
+    margin: 6px 16px;
+    cursor: pointer;
+}
+
+.people__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.people__content p {
+    color: #55555C;
+    font-size: 13px;
+}
+
+.people__content img {
+    margin-right: 16px;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+}
+
+.people__info {
+    display: flex;
+    flex-direction: row;
+}
+
+.people__name {
+    color: #050510;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.people__department {
+    text-transform: lowercase;
+    margin-left: 5px;
+    color: #97979B;
+    font-size: 14px;
+    line-height: 18px;
+}
